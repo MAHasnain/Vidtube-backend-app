@@ -1,0 +1,24 @@
+{
+  "name": "vidtube-backend-app",
+  "version": "1.0.0",
+  "description": "A backend-focused learning project that implements core YouTube-like functionalities using Node.js, Express, and MongoDB. Built to practice real-world backend architecture, REST APIs, authentication, and scalable data modeling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Vidtube-backend-app"
+  },
+  "keywords": [
+    "backend-development",
+    "nodejs",
+    "expressjs",
+    "restAPI",
+    "mongoose",
+    "mongodb",
+    "authentication"
+  ],
+  "author": "MAHasnain",
+  "license": "ISC"
+}
