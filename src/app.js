@@ -1,10 +1,12 @@
 import cookieParser from "cookie-parser";
 import express, { urlencoded } from "express";
+import helmet from "helmet";
 import cors from "cors";
 
 const app = express();
 
 // Middlewares 
+app.use(helmet());
 app.use(cors({
     origin: process.env.CORS_ORIGIN,
     credentials: true
